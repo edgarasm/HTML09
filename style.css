@@ -16,11 +16,15 @@ body {
   width: 200px;
   /* flex-basis: 200px; */
   /* margin: 0 15px; */
+  flex-grow: 1;
+  order: 2;
 }
 
 .inline-block-container {
   background-color: rgb(158, 43, 2);
   padding: 25px;
+  display: flex;
+  align-items: stretch;
 }
 
 .inline-block-container .post {

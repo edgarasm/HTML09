@@ -5,11 +5,43 @@ body {
 .flex-container {
   background-color: rgb(220, 90, 43);
   padding: 25px;
+  display: flex;
+  gap: 15px;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flex-container .post {
+  width: 200px;
+  /* flex-basis: 200px; */
+  /* margin: 0 15px; */
+}
+
+.inline-block-container {
+  background-color: rgb(158, 43, 2);
+  padding: 25px;
+}
+
+.inline-block-container .post {
+  display: inline-block;
+  width: 30%;
+  margin: 0 15px;
 }
 
 .post {
   background-color: rgb(252, 148, 110);
   padding: 10px;
   border-radius: 7px;
-  margin-top: 25px;
+  /* margin-top: 25px; */
+}
+
+button {
+  background-color: rgb(202, 202, 202);
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(87, 87, 87);
+  color: white;
 }

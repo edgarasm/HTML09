@@ -9,15 +9,15 @@ body {
   gap: 15px;
   /* flex-wrap: wrap; */
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .flex-container .post {
   width: 200px;
   /* flex-basis: 200px; */
   /* margin: 0 15px; */
-  flex-grow: 1;
-  order: 2;
+  /* flex-grow: 1; */
 }
 
 .inline-block-container {
